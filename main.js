@@ -46,7 +46,7 @@ searchbutton.onclick=function(){
     weathersection.style.display="block";
     let value=searchfield.value;
     if(value===""){
-        window.location.reload();
+        errormsg.style.display="block";
     }
     searchfield.value="";
     checkweather(value);
