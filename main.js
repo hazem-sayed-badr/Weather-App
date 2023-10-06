@@ -47,7 +47,12 @@ searchbutton.onclick=function(){
     let value=searchfield.value;
     if(value===""){
         errormsg.style.display="block";
+        weathersection.style.display="none";
     }
+    else{
+        errormsg.style.display="none";
+        
     searchfield.value="";
     checkweather(value);
+    }
 }
