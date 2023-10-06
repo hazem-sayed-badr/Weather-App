@@ -47,7 +47,7 @@ body{
     align-items: center;
     justify-content: center;
     outline: none;
-    
+    cursor: pointer;
 }
 .search button img{
     width: 16px;
